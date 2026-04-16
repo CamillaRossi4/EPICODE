@@ -1,0 +1,125 @@
+body{
+        margin:0;
+        font-family:Montserrat, san-serif;
+    }
+    .main-section{
+        padding:20px;
+        margin:20px;
+    }
+    .image-container{
+        height:500px;
+        background-image:url("https://images.unsplash.com/photo-1688343283094-8377c04236a8?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: cover;
+        background-position:center;
+    }
+    .NewYork .image-container{
+        background-image:url("https://images.unsplash.com/photo-1688343283094-8377c04236a8?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position:center 45%;
+    }
+     .Williamsburg .image-container{
+        background-image:url("https://images.unsplash.com/photo-1578059474177-88fb974a2d15?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+     .Soho .image-container{
+        background-image:url("https://images.unsplash.com/photo-1664353657558-ab3cc4b8c5c8?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+    .LittleItaly .image-container{
+        background-image:url("https://images.unsplash.com/photo-1549813101-462fc57eb445?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position:center 70%;
+    }
+    .KoreaTown .image-container{
+        background-image:url("https://images.unsplash.com/photo-1746407757880-1d848208ca00?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position:center 40%;
+    }
+    .Dumbo .image-container{
+        background-image:url("https://images.unsplash.com/photo-1688166740868-3f88d8a40610?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position:center 60%;
+    }
+    h1{
+        font-family:Prata, serif;
+        font-size:64px;
+        font-weight:400;
+        margin-bottom:0;
+    }
+    h3{
+        font-family:Prata, serif;
+        font-size:24px;
+        font-weight:400;
+        margin-bottom:0;
+    }
+    a{
+        font-weight:600;
+        font-style:italic;
+    }
+    h6{
+        padding:22px;
+        margin-bottom:0;
+        margin-top:56px;
+        color:white;
+        border-radius:6px;
+        background:linear-gradient(to right,#34321e,#c1a494);
+    }
+    .h6-NewYork{
+        background:linear-gradient(to right,#34321e,#c1a494);
+    }
+    .h6-Williamsburg{
+        background:linear-gradient(to right,#474e60,#89cbfb);
+    }
+    .h6-Soho{
+        background:linear-gradient(to right,#241b16,#eba47a);
+    }
+    .h6-LittleItaly{
+        background:linear-gradient(to right,#548596,#90777a);
+    }
+    .h6-KoreaTown{
+        background:linear-gradient(to right,#a38a6a,#ae5e8d);
+    }
+    .h6-Dumbo{
+    background:linear-gradient(to right,#5a5f65,#dee8f1);
+    }
+    ul{
+        list-style:none;
+        padding:0;
+    }
+    li{
+        padding:6px;
+        padding-left:22px;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    li a{
+        text-decoration: none;
+        color:#292b2d;
+    }
+    .NewYork li a{
+        text-decoration:none;
+        color:#34321e;
+    }
+    .Williamsburg li a{
+        text-decoration:none;
+        color:#474e60;
+    }
+    .Soho li a{
+        text-decoration: none;
+        color:#241b16;
+    }
+    .LittleItaly li a{
+        text-decoration: none;
+        color:#548596;
+    }
+    .KoreaTown li a{
+        text-decoration: none;
+        color:#a38a6a;
+    }
+    .Dumbo li a{
+        text-decoration:none;
+        color:#5a5f65;
+    }
+    footer{
+        background-color: black;
+        color:white;
+        padding:16px;
+        text-align: center;
+    }
+    footer a{
+        color:white;
+        text-decoration: none;
+    }

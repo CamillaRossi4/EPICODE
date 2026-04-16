@@ -1,0 +1,97 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    display:flex;
+    margin: 0;
+}
+#main{
+    width:100%;
+}
+#content{
+    padding:20px 0px 20px 20px;
+}
+#sidebar{
+    width:80px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sidebar-icon{
+    padding:2.5em;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    cursor:pointer;
+}
+.sidebar-icon p {
+    margin:0;
+}
+.sidebar-icon ion-icon {
+    font-size:1.5em;
+}
+#topbar{
+    height:8vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#logo{
+    height:50%;
+}
+#search-wrapper{
+    display:flex;
+    height:50%;
+}
+#topbar-icons{
+    display:flex;
+}
+.topbar-icon ion-icon {
+    font-size:2em;
+    padding:0 0.3em;
+}
+#mic-icon ion-icon {
+    font-size:1.5em;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin:0.3em 0.5em;
+}
+#search-button{
+    padding:0 0.6em;
+    font-size:1.2em;
+    display:flex;
+    align-items:center;
+}
+.video-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 30px;
+}
+.video-card{
+     width: 31%;
+}
+.video-card > img{
+    width: 100%;
+    display: block;
+}
+.video-info {
+    display: flex;
+    margin-top: 12px;
+}
+.channel-icon{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    margin-right:10px;
+    object-fit:cover;
+}
+.video-text h4 {
+    margin: 0;
+    font-size: 14px;
+}
+.video-text p {
+    margin: 2px 0;
+    font-size: 12px;
+    color: gray;
+}
+
