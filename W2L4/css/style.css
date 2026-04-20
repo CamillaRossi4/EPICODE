@@ -223,6 +223,7 @@ aside {
   color: #6b6b6b;
   text-decoration: underline;
   cursor: pointer;
+  text-decoration: none;
 }
 .aside-center h3 {
   font-size: 1.1rem;
