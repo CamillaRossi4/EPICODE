@@ -65,6 +65,7 @@ users.push(marco);
 users.push(paul);
 users.push(amy);
 const ambassadors = [];
+
 for (let i = 0; i < users.length; i++) {
   if (users[i].isAmbassador) {
     ambassadors.push(users[i]);
