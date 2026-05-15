@@ -1,0 +1,78 @@
+body {
+  background-color: #f8f5f0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.card {
+  width: 40rem;
+  background: white;
+  cursor: pointer;
+  padding: 3rem;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+h1 {
+  color: #4b433a;
+  margin-bottom: 2rem;
+}
+#job,
+#location,
+#search {
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid #d8d2ca;
+}
+#job,
+#location {
+  background-color: white;
+}
+#job:focus,
+#location:focus {
+  outline: none;
+  border-color: #8b7d6b;
+  background-color: white;
+}
+#search {
+  background-color: #c7bfb4;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#search:hover {
+  background-color: #726454;
+}
+#resultsList {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+#resultsList li {
+  width: 100%;
+  background-color: #f8f5f0;
+  border: 1px solid #e2dbd2;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  color: #4b433a;
+  box-sizing: border-box;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #8c8175;
+}
